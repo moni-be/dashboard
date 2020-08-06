@@ -1,10 +1,14 @@
 import React from 'react'
+import Aside from './Commons/Aside'
+import Section from './Commons/Section'
 
 const MonProfile = () => {
   return (
-    <h1>Hello World</h1>
+    <>
+      <Aside />
+      <Section />
+    </>
   )
-
 }
 
 export default MonProfile

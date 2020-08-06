@@ -1,10 +1,12 @@
 import React from 'react'
-import MonProfile from './MonProfile'
+import Aside from './Commons/Aside'
+import Section from './Commons/Section'
 
 const PageProfile = () => {
   return (
     <>
-      <MonProfile />
+      <Aside />
+      <Section />
     </>
   )
 }

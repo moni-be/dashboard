@@ -1,0 +1,247 @@
+.aside{
+  width: 20%;
+  height: 100vh;
+  background-color: #273147;
+  color: #ffffff;
+}
+
+.aside .section-identity{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+}
+
+.aside .section-identity .logo{
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-top: 3em;
+  background-color: #ffffff;
+  border-radius: 100px;
+}
+
+.aside .section-settings{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aside .section-settings ul{
+  display: block;
+  position: absolute;
+  bottom: 10%;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.aside .section-settings ul li{
+  font-size: 1em;
+  text-transform: uppercase;
+  list-style: none;
+  padding-bottom: .5em;
+}
+
+.aside .section-settings .icons{
+  padding-right: .5em;
+
+}
+
+.section-right{
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-right .header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  padding-top: 1em;
+}
+
+.section-right .header .infos-profile{
+  width: 50%;
+  padding-left: 2em;
+}
+
+.section-right .header .infos-profile .title{
+  font-family: 'Dosis', sans-serif;
+  font-size: 2.5em;
+}
+
+
+.section-right .header .infos-avatar{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-self: flex-end;
+}
+
+.section-right .header .infos-avatar .avatar{
+  display: block;
+  position: absolute;
+  right: 5em;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+}
+.section-right .header .infos-avatar .swip-avatar{
+  display: block;
+  position: absolute;
+  right: 3.5em;
+  top: 105px;
+  text-align: center;
+  color:#D4315A;
+}
+
+.section-right .sous-title{
+  width: 100%;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5em;
+  padding-left: 1.5em;
+  margin-top: 2.8em;
+  border-top-style: 1px #273147;
+  border-bottom-style: 1px #273147;
+  border-top-style: double;
+  border-bottom-style: double
+}
+
+.container-coordonnees{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+.container-coordonnees .coordonnees{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+
+.container-coordonnees .contacts{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.container-coordonnees .coordonnees ul li{
+  list-style: none;
+  font-family: 'Dosis', sans-serif;
+  margin-top: 2em;
+}
+
+.container-coordonnees .coordonnees .plus{
+  font-size: 2.3em;
+}
+.container-coordonnees .coordonnees .moins{
+  font-size: 1.3em;
+}
+.container-coordonnees .coordonnees a{
+  line-height: 1.5;
+  color:#D4315A;
+}
+
+/* .container-coordonnees .coordonnees .my-form{
+  width: 80%;
+  margin: auto;
+}
+
+.container-coordonnees .coordonnees .my-form input, label{
+  display: block;
+  margin: auto;
+}
+
+.container-coordonnees .coordonnees .my-form label{
+  font-size: 1em;
+} */
+
+
+.container-coordonnees .contacts ul li{
+  list-style: none;
+  font-family: 'Dosis', sans-serif;
+}
+
+.container-coordonnees .contacts .plus{
+  font-size: 2em;
+}
+.container-coordonnees .contacts .moins{
+  font-size: 1.5em;
+  padding-top: 3em;
+}
+.container-coordonnees .contacts a{
+  line-height: 2;
+  color:#D4315A;
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+
+  .aside{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: auto;
+  }
+
+  .aside .section-identity, .logo{
+    display: none;
+}
+
+  .aside .section-settings{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .aside .section-settings ul li{
+    font-size: .8em;
+}
+
+  .aside .section-settings li{
+    display: inline-block;
+    padding-left: 1.5em;
+}
+  .aside .section-settings .icons{
+    padding:0;
+}
+  .section-right{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+}
+
+  .section-right .header{
+    width: 100%;
+    height: auto;
+    background-color: #273147;
+    color: #ffffff;
+  }
+
+  .section-right .header .infos-profile .title{
+    font-size: 1.5em;
+    padding-bottom: .5em
+  }
+
+  .section-right .sous-title{
+    margin-top: 0;
+    padding-left: 2em;
+    font-size: 1em;
+  }
+
+  .section-right .header .infos-avatar .avatar{
+    display: none
+  }
+
+}
