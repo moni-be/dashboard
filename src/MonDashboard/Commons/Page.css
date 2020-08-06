@@ -68,6 +68,7 @@
 .section-right .header .infos-profile{
   width: 50%;
   padding-left: 2em;
+  
 }
 
 .section-right .header .infos-profile .title{
@@ -79,13 +80,13 @@
 .section-right .header .infos-avatar{
   width: 50%;
   display: flex;
-  align-items: center;
-  justify-self: flex-end;
+  justify-content: flex-end;
 }
 
 .section-right .header .infos-avatar .avatar{
   display: block;
   position: absolute;
+  top: 1em;
   right: 5em;
   width: 80px;
   height: 80px;
@@ -241,7 +242,62 @@
   }
 
   .section-right .header .infos-avatar .avatar{
-    display: none
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 2em;
+    width: 40px;
+    height: 40px;
+  }
+
+  .section-right .header .infos-avatar .swip-avatar{
+    font-size: .8em;
+    right: 1em;
+    top: 3.2em;
+    color: #ffffff;
+  }
+
+  .container-coordonnees{
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .container-coordonnees .coordonnees{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-coordonnees .contacts{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5em;
+    padding-bottom: 5em;
+  }
+  .container-coordonnees .coordonnees ul li{
+    margin-top: 1em;
+  }
+  .container-coordonnees .coordonnees .plus{
+    font-size: 1.5em;
+  }
+
+  .container-coordonnees .coordonnees .moins {
+    font-size: 1em;
+  }
+
+  .container-coordonnees .coordonnees a, .contacts a{
+    line-height: 1em;
+    color:#D4315A;
+    font-size: .8em;
+  }
+
+   .container-coordonnees .contacts .moins{
+    font-size: 1em;
+    padding-top: 1em;
   }
 
 }
