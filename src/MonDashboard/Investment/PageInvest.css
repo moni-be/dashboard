@@ -216,58 +216,89 @@
 }
 
 @media screen and (min-width: 200px) and (max-width: 640px) {
-
   .aside-invest{
-  display: none;
-  }
-
-  .aside-invest .section-identity{
-    display: none;
-  }
-  .aside-invest .section-sociaux{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
     height: auto;
-    padding-bottom: 5em;
   }
-  .aside-invest .section-sociaux h3{
-    font-size: .8em;
-    padding: 1em 0em;
+  .aside-invest .section-identity,.aside-invest .section-sociaux{
+   display: none;
   }
-
   .aside-invest .section-settings{
     width: 100%;
-    height: auto;
+    height: 10vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-top: 0;
   }
-  
   .aside-invest .section-settings ul li{
     font-size: .8em;
   }
 
-    .aside-invest .section-settings li{
+  .aside-invest .section-settings li{
       display: inline-block;
       padding-left: 1.5em;
   }
-    .aside-invest .section-settings .icons{
+  .aside-invest .section-settings .icons{
       padding:0;
   }
-    .section-right{
-      width: 100%;
-      display:flex;
-      flex-direction: column;
-
+  .section-right{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+  }
+  .section-right .header-invest{
+    background-color:  #273147;
+    padding-bottom: 1em;
+  }
+  .section-right .header-invest .infos-invest{
+    padding-left: 1em;
+  }
+  .section-right .header-invest .infos-invest h3{
+    color: #ffffff;
+    padding-top: 1em;
+  }
+  .section-right .sous-title-raiting h3{
+    margin-left: 1em;
+  }
+  .section-right .header-invest .infos-invest .title{
+    padding-top: 0;
+    font-size: 2em;
+    color: #ffffff;
+  }
+  .section-right .header-invest .infos-avatar .avatar{
+    top: 1em;
+    right: 1em;
+    width: 80px;
+    height: 80px;
   }
 
-    .section-right .header-invest .infos-invest .title{
-      padding-top: .5em;
-    }
-    .section-right .header-invest .infos-avatar .avatar{
-      display: none;
-    }
+  .section-right .sous-title-raiting{
+    height: 10vh;
+    margin-top: .5em;
+    align-items: center;
+    font-size: .8em;
+  }
+  
+  .container-investissements {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .container-investissements .top-investisseurs{
+    height: 10vh;
+  }
+  .container-investissements .top-investisseurs .raiting{
+    width: 100px;
+    height: 30px;
+    font-size: 1em;
+  }
 
+  .container-investissements .liste-investisseurs .tableau-invest{
+    margin-bottom: 10em;
+  }
 }

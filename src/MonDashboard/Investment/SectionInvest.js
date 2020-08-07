@@ -6,11 +6,10 @@ import HeaderInvest from './HeaderInvest'
 import '../Page.css'
 
 const SectionInvest = () => {
-
-handleClick(e) {
-  e.preventDefault()
-  alert('Ce CTA nous permettra d\'aller à la page de ce réseau ou campagne')
-}
+  const handleClick = (e) => {
+    e.preventDefault()
+    alert('Ce CTA nous permettra d\'aller à la page de ce réseau ou campagne')
+  }
 
   return (
     <div className='section-right'>
