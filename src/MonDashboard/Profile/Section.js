@@ -1,5 +1,5 @@
 import React from 'react'
-import './Page.css'
+import '../Page.css'
 import Header from './Header'
 
 const Section = () => {

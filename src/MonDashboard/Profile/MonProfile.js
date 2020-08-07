@@ -1,6 +1,6 @@
 import React from 'react'
-import Aside from './Commons/Aside'
-import Section from './Commons/Section'
+import Aside from './Aside'
+import Section from './Section'
 
 const MonProfile = () => {
   return (

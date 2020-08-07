@@ -1,6 +1,6 @@
 import React from 'react'
-import Aside from './Commons/Aside'
-import Section from './Commons/Section'
+import Aside from './Profile/Aside'
+import Section from './Profile/Section'
 
 const PageProfile = () => {
   return (

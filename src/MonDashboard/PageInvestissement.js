@@ -1,8 +1,15 @@
 import React from 'react'
+import AsideInvest from './Investment/AsideInvest'
+import SectionInvest from './Investment/SectionInvest'
+
+import './Page.css'
 
 const PageInvestissement = () => {
   return (
-    <h1>ils me font confiance</h1>
+    <>
+      <AsideInvest />
+      <SectionInvest />
+    </>
   )
 }
 

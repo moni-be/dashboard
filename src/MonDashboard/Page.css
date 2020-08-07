@@ -17,7 +17,7 @@
   width: 100px;
   height: 100px;
   margin-top: 3em;
-  background-color: #ffffff;
+  background-color: #947734;
   border-radius: 100px;
 }
 
@@ -41,11 +41,21 @@
   text-transform: uppercase;
   list-style: none;
   padding-bottom: .5em;
+  color: #ffffff;
 }
+
+.aside .section-settings .link{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.aside .section-settings li:hover, .link:hover{
+  text-decoration: underline;
+}
+
 
 .aside .section-settings .icons{
   padding-right: .5em;
-
 }
 
 .section-right{
@@ -91,6 +101,7 @@
   width: 80px;
   height: 80px;
   text-align: center;
+  color: #947734;
 }
 .section-right .header .infos-avatar .swip-avatar{
   display: block;

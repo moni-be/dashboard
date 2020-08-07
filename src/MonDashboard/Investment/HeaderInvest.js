@@ -1,21 +1,20 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserCircle } from '@fortawesome/free-solid-svg-icons'
-import './Page.css'
+import '../Page.css'
+import './PageInvest.css'
 
-const Header = () => {
+const HeaderInvest = () => {
   return (
-    <div className='header'>
-      <section className='infos-profile'>
-        <h1 className='title'>Mon profile</h1>
+    <div className='header-invest'>
+      <section className='infos-invest'>
+        <h1 className='title'>12000.00€</h1>
       </section>
       <section className='infos-avatar'>
         <FontAwesomeIcon icon={faUserCircle} className='avatar' />
-        <a href='#' className='swip-avatar'>Changer l'avatar</a>
-        {/* <img src='#'  alt='avatar' /> */}
       </section>
     </div>
   )
 }
 
-export default Header
+export default HeaderInvest
