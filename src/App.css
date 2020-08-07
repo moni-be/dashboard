@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Roboto:wght@300;400;700&display=swap');
 
 *{padding: 0; margin: 0;}
 
@@ -11,7 +11,7 @@ body{box-sizing: border-box;
 }
 .container-app{
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

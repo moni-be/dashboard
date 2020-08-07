@@ -8,6 +8,7 @@ const HeaderInvest = () => {
   return (
     <div className='header-invest'>
       <section className='infos-invest'>
+        <h3>Mon projet, mon objectif</h3>
         <h1 className='title'>12000.00€</h1>
       </section>
       <section className='infos-avatar'>

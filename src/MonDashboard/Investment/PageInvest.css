@@ -1,6 +1,6 @@
 .aside-invest{
   width: 20%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   background-color: #273147;
@@ -11,7 +11,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 30vh;
 }
 
 .aside-invest .section-identity .logo{
@@ -25,9 +24,9 @@
 
 .aside-invest .section-sociaux{
   display: flex;
+  margin-top: 2em;
   flex-direction: column;
   text-align: left;
-  height: 30vh;
   padding-left: 25%;
 }
 .aside-invest .section-sociaux h3{
@@ -46,10 +45,11 @@
 }
 
 .aside-invest .section-settings{
-  height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: end;
+  margin-top: 25em;
 }
 
 .aside-invest .section-settings ul{
@@ -73,7 +73,7 @@
   text-decoration: none;
 }
 
-.aside .section-settings li:hover, .link:hover{
+.aside-invest .section-settings li:hover, .link:hover{
   text-decoration: underline;
 }
 
@@ -98,9 +98,14 @@
   font-family: 'Dosis', sans-serif;
   font-size: 2.5em;
   color: #D4315A;
-  padding-top: 1em;
 }
 
+.section-right .header-invest .infos-invest h3{
+  padding-top: 2em;
+  font-size: 1.3em;
+  font-style: italic;
+  color: #947734;
+}
 
 .section-right .header-invest .infos-avatar{
   width: 50%;
@@ -111,7 +116,7 @@
 .section-right .header-invest .infos-avatar .avatar{
   display: block;
   position: absolute;
-  top: 1em;
+  top: 2em;
   right: 5em;
   width: 80px;
   height: 80px;
@@ -121,14 +126,19 @@
 
 .section-right .sous-title-raiting{
   width: 100%;
+  height: 15vh;
   font-family: 'Dosis', sans-serif;
-  font-size: 1.3em;
-  padding: .3em 0em .3em 1.5em ;
-  margin-top: 2em;
   color: #ffffff;
-  background-color: #273147;;
+  background-color: #273147;
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
 }
 
+.section-right .sous-title-raiting h3{
+  font-size: 1.3em;
+  margin-left: 2em;
+}
 .container-investissements {
   width: 100%;
   display: flex;
@@ -144,7 +154,7 @@
   justify-content: space-around;
   align-items: center;
   background-color: #ffffff;
-  height: 20vh;
+  height: 18vh;
 }
 
 .container-investissements .top-investisseurs .raiting{
@@ -157,6 +167,7 @@
   font-size: 1.8em;
   background-color: #D4315A;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .container-investissements .top-investisseurs .raiting .social{
@@ -169,24 +180,40 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  height: auto;
+
 }
 
 .container-investissements .liste-investisseurs .tableau-invest{
   width: 100%;
   margin: auto;
   border-collapse: collapse;
+  text-align: center;
 }
 
 .container-investissements .liste-investisseurs .tableau-invest tr:first-child{
   background-color: #273147;
   color: #ffffff;
-  font-family: 'Dosis', sans-serif;
-  font-size: 1em;
-  padding: 10px
+  font-size: 1.1em;
+  font-weight: 700;
+  height: 1.8em;
 }
 
+.container-investissements .liste-investisseurs .tableau-invest .mois{
+  font-size: 1em;
+  font-weight: 700;
+  text-align: left;
+  padding-left: 10%;
+  height: 1.5em;
+}
 
+.container-investissements .liste-investisseurs .tableau-invest .line{
+  font-size: 1em;
+  height: 2em;
+  border-top-style: 1px #273147;
+  border-bottom-style: 1px #273147;
+  border-top-style: double;
+  border-bottom-style: double;
+}
 
 @media screen and (min-width: 200px) and (max-width: 640px) {
 
